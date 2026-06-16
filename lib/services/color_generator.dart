@@ -1,6 +1,7 @@
 import 'dart:math';
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
+/// Generates a random color with RGB values between 0 and 255.
 Color getRandomColor() {
   final random = Random();
   return Color.fromRGBO(
