@@ -1,3 +1,5 @@
+// ignore: prefer_match_file_name
+
 import 'package:flutter/material.dart';
 import 'package:test_task_colors/screens/color_screen.dart';
 
@@ -7,6 +9,7 @@ void main() {
 
 /// Root widget of the application.
 class MyApp extends StatelessWidget {
+  /// Root widget of the application.
   const MyApp({super.key});
 
   @override
